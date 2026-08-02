@@ -54,33 +54,34 @@ The dataset contains salary information for data science and machine learning pr
 ---
 
 ## Project Structure
+
+```text
 CareerCompass/
-│
+├── app/
 ├── data/
-│ ├── raw/
-│ │ └── ds_salaries.csv
-│ │
-│ └── processed/
-│ └── processed_salary_data.csv
-│
+│   ├── raw/
+│   │   └── ds_salaries.csv
+│   └── processed/
+│       ├── processed_salary_data.csv
+│       ├── X_train.csv
+│       ├── X_test.csv
+│       ├── y_train.csv
+│       └── y_test.csv
 ├── models/
-│ └── random_forest_salary_model.joblib
-│
+│   └── random_forest_salary_model.joblib
 ├── notebooks/
-│ ├── 01_data_inspection.ipynb
-│ ├── 02_data_cleaning.ipynb
-│ ├── 03_exploratory_data_analysis.ipynb
-│ ├── 04_feature_engineering.ipynb
-│ ├── 05_model_training_evaluation.ipynb
-│ └── 06_salary_prediction_demo.ipynb
-│
+│   ├── 01_data_inspection.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_exploratory_data_analysis.ipynb
+│   ├── 04_feature_engineering.ipynb
+│   ├── 05_model_training_and_evaluation.ipynb
+│   └── 06_salary_prediction_demo.ipynb
 ├── reports/
-│
-├── presentation/
-│
+├── src/
+├── .gitignore
 ├── README.md
-│
 └── requirements.txt
+```
 
 ---
 
