@@ -228,10 +228,7 @@ The prediction is based on historical patterns in the training dataset and may n
 - [x] Model Persistence
 - [x] GitHub Version Control
 - [x] Streamlit MVP
-- [ ] Hyperparameter Tuning
-- [ ] Cross-Validation Expansion
-- [ ] Public Cloud Deployment
-- [ ] Final Project Presentation
+- [x] Final Project Presentation
 
 ---
 
@@ -269,12 +266,9 @@ Machine Learning Course — Summer 2026
 Potential future improvements include:
 
 - Hyperparameter tuning for the Random Forest model
-- K-fold cross-validation
 - Comparison with additional ensemble and boosting models
 - Expanded and more recent salary datasets
 - Additional employee and company features
-- Public Streamlit deployment
-- Automated model retraining
 - Model performance monitoring
 - Improved support for underrepresented countries and job titles
 - Additional application testing and accessibility refinement
